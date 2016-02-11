@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bwq="http://schemas.android.com/tools"
+
     >
+
+    <item android:id="@+id/action_share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
 
     <item android:id="@+id/menu_pen"
         android:title="Pen"
+        android:icon="@android:drawable/ic_menu_edit"
         app:showAsAction="ifRoom"
         />
 
     <item android:id="@+id/menu_color"
         android:title="Change Color"
-        />
+        />]
+
 </menu>

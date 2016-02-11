@@ -3,11 +3,14 @@
     package="edu.uw.kaiyosh.geopaint">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="GeoPaint!"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".geopaint_map">
